@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=jimmy123good@hotmail.com
+Enabled=true
+Parent=950f55115f5e498ec708b340acc2bd196f2209ae
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=Outlook
+Port=25
+ProxyUid=system-proxy
+RememberPassword=true
+User=jimmy123good@hotmail.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=jimmy123good@gmail.com
+Enabled=true
+Parent=cb98891967d47567c122fb4498e4c6a51118acbb
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://ad8fc54856470f14d0d8f25925d883db566c499a/%5bGmail%5d/%e8%8d%89%e7%a8%bf
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=jimmy123good@gmail.com
+Aliases=
+Name=JimmyGmail
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=68f08a06f623485973a1bca9f270b1db2374ecc2
+RepliesToOriginFolder=false
+UseSentFolder=true

@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=ailrk_hk_journalist@hotmail.com
+Enabled=false
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=Outlook
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=ailrk_hk_journalist@hotmail.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=00323f541fe37bac29b02ddd463135c3e0ab0395
+ArchiveFolder=
+NeedsInitialSetup=true
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

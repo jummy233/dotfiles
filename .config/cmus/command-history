@@ -1,0 +1,8 @@
+rand
+bind -f common 1 view tree
+add ~/Music/
+add 22 - 70x7.mp3
+add
+q
+Q
+help

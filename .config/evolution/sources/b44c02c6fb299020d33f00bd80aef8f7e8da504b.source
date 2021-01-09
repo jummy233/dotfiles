@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=jimmy123good@hotmail.com
+Enabled=true
+Parent=950f55115f5e498ec708b340acc2bd196f2209ae
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://950f55115f5e498ec708b340acc2bd196f2209ae/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=jimmy123good@hotmail.com
+Aliases=
+Name=Jimmy
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://950f55115f5e498ec708b340acc2bd196f2209ae/Sent
+TransportUid=e80f2170d1941d6aa945beb2bd777e9e7f19b474
+RepliesToOriginFolder=false
+UseSentFolder=true

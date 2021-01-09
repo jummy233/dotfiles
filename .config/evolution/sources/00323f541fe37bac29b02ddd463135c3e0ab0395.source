@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=ailrk_hk_journalist@hotmail.com
+Enabled=false
+Parent=38466b2c650128468764edeb8816999ae60d8392
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=ailrk_hk_journalist@hotmail.com
+Aliases=
+Name=Jimmy Yao
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=8061011116c783bf5b6b4aa18440ddca0097766d
+RepliesToOriginFolder=false
+UseSentFolder=true

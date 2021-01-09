@@ -1,0 +1,417 @@
+{
+	"folder_history":
+	[
+		"/home/jimmy/pj/PROJECTS"
+	],
+	"last_version": 3207,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 464.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/var/tmp/etilqs_3b7136570c0c926c.csv",
+				"/run/media/jimmy/2418-E1CA/Energy+.idd",
+				"/home/jimmy/Downloads/train_binary.csv",
+				"/home/jimmy/newDisk/docs/2 Python程序设计-爬虫的实现/workspace/KNN_Test/DB_operation.py",
+				"/home/jimmy/newDisk/docs/5 TensorFlow/URLs.txt",
+				"/home/jimmy/newDisk/docs/UBC02W/engl112/draft/draft.tex",
+				"/home/jimmy/.fonts/tewimedium.sfd",
+				"/home/jimmy/Desktop/Cloudpath-Support.txt",
+				"/home/jimmy/.config/Typora/conf/conf.default.json",
+				"/home/jimmy/.config/Typora/conf/conf.user.json",
+				"/home/jimmy/.config/Typora/themes/RTL-Lavender.css"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 50.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 901.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "\n\n/*//////////////////////////////////////////////////////////////////\n[ FONT ]*/\n\n\n@font-face {\n  font-family: Lato-Regular;\n  src: url('../fonts/Lato/Lato-Regular.ttf'); \n}\n\n@font-face {\n  font-family: Lato-Bold;\n  src: url('../fonts/Lato/Lato-Bold.ttf'); \n}\n\n/*//////////////////////////////////////////////////////////////////\n[ RESTYLE TAG ]*/\n* {\n\tmargin: 0px; \n\tpadding: 0px; \n\tbox-sizing: border-box;\n}\n\nbody, html {\n\theight: 100%;\n\tfont-family: sans-serif;\n}\n\n/* ------------------------------------ */\na {\n\tmargin: 0px;\n\ttransition: all 0.4s;\n\t-webkit-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n}\n\na:focus {\n\toutline: none !important;\n}\n\na:hover {\n\ttext-decoration: none;\n}\n\n/* ------------------------------------ */\nh1,h2,h3,h4,h5,h6 {margin: 0px;}\n\np {margin: 0px;}\n\nul, li {\n\tmargin: 0px;\n\tlist-style-type: none;\n}\n\n\n/* ------------------------------------ */\ninput {\n  display: block;\n\toutline: none;\n\tborder: none !important;\n}\n\ntextarea {\n  display: block;\n  outline: none;\n}\n\ntextarea:focus, input:focus {\n  border-color: transparent !important;\n}\n\n/* ------------------------------------ */\nbutton {\n\toutline: none !important;\n\tborder: none;\n\tbackground: transparent;\n}\n\nbutton:hover {\n\tcursor: pointer;\n}\n\niframe {\n\tborder: none !important;\n}\n\n/*//////////////////////////////////////////////////////////////////\n[ Scroll bar ]*/\n.js-pscroll {\n  position: relative;\n  overflow: hidden;\n}\n\n.table100 .ps__rail-y {\n  width: 9px;\n  background-color: transparent;\n  opacity: 1 !important;\n  right: 5px;\n}\n\n.table100 .ps__rail-y::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  background-color: #ebebeb;\n  border-radius: 5px;\n  width: 100%;\n  height: calc(100% - 30px);\n  left: 0;\n  top: 15px;\n}\n\n.table100 .ps__rail-y .ps__thumb-y {\n  width: 100%;\n  right: 0;\n  background-color: transparent;\n  opacity: 1 !important;\n}\n\n.table100 .ps__rail-y .ps__thumb-y::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  background-color: #cccccc;\n  border-radius: 5px;\n  width: 100%;\n  height: calc(100% - 30px);\n  left: 0;\n  top: 15px;\n}\n\n\n/*//////////////////////////////////////////////////////////////////\n[ Table ]*/\n\n.limiter {\n  width: 1366px;\n  margin: 0 auto;\n}\n\n.container-table100 {\n  width: 100%;\n  min-height: 100vh;\n  background: #fff;\n\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  padding: 33px 30px;\n}\n\n.wrap-table100 {\n  width: 1170px;\n}\n\n/*//////////////////////////////////////////////////////////////////\n[ Table ]*/\n.table100 {\n  background-color: #fff;\n}\n\ntable {\n  width: 100%;\n}\n\nth, td {\n  font-weight: unset;\n  padding-right: 10px;\n}\n\n.column1 {\n  width: 33%;\n  padding-left: 40px;\n}\n\n.column2 {\n  width: 13%;\n}\n\n.column3 {\n  width: 22%;\n}\n\n.column4 {\n  width: 19%;\n}\n\n.column5 {\n  width: 13%;\n}\n\n.table100-head th {\n  padding-top: 18px;\n  padding-bottom: 18px;\n}\n\n.table100-body td {\n  padding-top: 16px;\n  padding-bottom: 16px;\n}\n\n/*==================================================================\n[ Fix header ]*/\n.table100 {\n  position: relative;\n  padding-top: 60px;\n}\n\n.table100-head {\n  position: absolute;\n  width: 100%;\n  top: 0;\n  left: 0;\n}\n\n.table100-body {\n  max-height: 585px;\n  overflow: auto;\n}\n\n\n/*==================================================================\n[ Ver1 ]*/\n\n.table100.ver1 th {\n  font-family: Lato-Bold;\n  font-size: 18px;\n  color: #fff;\n  line-height: 1.4;\n\n  background-color: #6c7ae0;\n}\n\n.table100.ver1 td {\n  font-family: Lato-Regular;\n  font-size: 15px;\n  color: #808080;\n  line-height: 1.4;\n}\n\n.table100.ver1 .table100-body tr:nth-child(even) {\n  background-color: #f8f6ff;\n}\n\n/*---------------------------------------------*/\n\n.table100.ver1 {\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n}\n\n.table100.ver1 .ps__rail-y {\n  right: 5px;\n}\n\n.table100.ver1 .ps__rail-y::before {\n  background-color: #ebebeb;\n}\n\n.table100.ver1 .ps__rail-y .ps__thumb-y::before {\n  background-color: #cccccc;\n}\n\n\n/*==================================================================\n[ Ver2 ]*/\n\n.table100.ver2 .table100-head {\n  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);\n  -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);\n  -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);\n  -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);\n}\n\n.table100.ver2 th {\n  font-family: Lato-Bold;\n  font-size: 18px;\n  color: #fa4251;\n  line-height: 1.4;\n\n  background-color: transparent;\n}\n\n.table100.ver2 td {\n  font-family: Lato-Regular;\n  font-size: 15px;\n  color: #808080;\n  line-height: 1.4;\n}\n\n.table100.ver2 .table100-body tr {\n  border-bottom: 1px solid #f2f2f2;\n}\n\n/*---------------------------------------------*/\n\n.table100.ver2 {\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n}\n\n.table100.ver2 .ps__rail-y {\n  right: 5px;\n}\n\n.table100.ver2 .ps__rail-y::before {\n  background-color: #ebebeb;\n}\n\n.table100.ver2 .ps__rail-y .ps__thumb-y::before {\n  background-color: #cccccc;\n}\n\n/*==================================================================\n[ Ver3 ]*/\n\n.table100.ver3 {\n  background-color: #393939;\n}\n\n.table100.ver3 th {\n  font-family: Lato-Bold;\n  font-size: 15px;\n  color: #00ad5f;\n  line-height: 1.4;\n  text-transform: uppercase;\n  background-color: #393939;\n}\n\n.table100.ver3 td {\n  font-family: Lato-Regular;\n  font-size: 15px;\n  color: #808080;\n  line-height: 1.4;\n  background-color: #222222;\n}\n\n\n/*---------------------------------------------*/\n\n.table100.ver3 {\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);\n}\n\n.table100.ver3 .ps__rail-y {\n  right: 5px;\n}\n\n.table100.ver3 .ps__rail-y::before {\n  background-color: #4e4e4e;\n}\n\n.table100.ver3 .ps__rail-y .ps__thumb-y::before {\n  background-color: #00ad5f;\n}\n\n\n/*==================================================================\n[ Ver4 ]*/\n.table100.ver4 {\n  margin-right: -20px;\n}\n\n.table100.ver4 .table100-head {\n  padding-right: 20px;\n}\n\n.table100.ver4 th {\n  font-family: Lato-Bold;\n  font-size: 18px;\n  color: #4272d7;\n  line-height: 1.4;\n\n  background-color: transparent;\n  border-bottom: 2px solid #f2f2f2;\n}\n\n.table100.ver4 .column1 {\n  padding-left: 7px;\n}\n\n.table100.ver4 td {\n  font-family: Lato-Regular;\n  font-size: 15px;\n  color: #808080;\n  line-height: 1.4;\n}\n\n.table100.ver4 .table100-body tr {\n  border-bottom: 1px solid #f2f2f2;\n}\n\n/*---------------------------------------------*/\n\n.table100.ver4 {\n  overflow: hidden;\n}\n\n.table100.ver4 .table100-body{\n  padding-right: 20px;\n}\n\n.table100.ver4 .ps__rail-y {\n  right: 0px;\n}\n\n.table100.ver4 .ps__rail-y::before {\n  background-color: #ebebeb;\n}\n\n.table100.ver4 .ps__rail-y .ps__thumb-y::before {\n  background-color: #cccccc;\n}\n\n\n/*==================================================================\n[ Ver5 ]*/\n.table100.ver5 {\n  margin-right: -30px;\n}\n\n.table100.ver5 .table100-head {\n  padding-right: 30px;\n}\n\n.table100.ver5 th {\n  font-family: Lato-Bold;\n  font-size: 14px;\n  color: #555555;\n  line-height: 1.4;\n  text-transform: uppercase;\n\n  background-color: transparent;\n}\n\n.table100.ver5 td {\n  font-family: Lato-Regular;\n  font-size: 15px;\n  color: #808080;\n  line-height: 1.4;\n\n  background-color: #f7f7f7;\n}\n\n.table100.ver5 .table100-body tr {\n  overflow: hidden; \n  border-bottom: 10px solid #fff;\n  border-radius: 10px;\n}\n\n.table100.ver5 .table100-body table { \n  border-collapse: separate; \n  border-spacing: 0 10px; \n}\n.table100.ver5 .table100-body td {\n    border: solid 1px transparent;\n    border-style: solid none;\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n.table100.ver5 .table100-body td:first-child {\n    border-left-style: solid;\n    border-top-left-radius: 10px; \n    border-bottom-left-radius: 10px;\n}\n.table100.ver5 .table100-body td:last-child {\n    border-right-style: solid;\n    border-bottom-right-radius: 10px; \n    border-top-right-radius: 10px; \n}\n\n.table100.ver5 tr:hover td {\n  background-color: #ebebeb;\n  cursor: pointer;\n}\n\n.table100.ver5 .table100-head th {\n  padding-top: 25px;\n  padding-bottom: 25px;\n}\n\n/*---------------------------------------------*/\n\n.table100.ver5 {\n  overflow: hidden;\n}\n\n.table100.ver5 .table100-body{\n  padding-right: 30px;\n}\n\n.table100.ver5 .ps__rail-y {\n  right: 0px;\n}\n\n.table100.ver5 .ps__rail-y::before {\n  background-color: #ebebeb;\n}\n\n.table100.ver5 .ps__rail-y .ps__thumb-y::before {\n  background-color: #cccccc;\n}\n",
+					"file": "/home/jimmy/.cache/.fr-fQ5lhl/Table_Fixed_Header/css/main.css",
+					"file_size": 9768,
+					"file_write_time": 131581976420000000,
+					"settings":
+					{
+						"buffer_size": 9242,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/jimmy/pj/PROJECTS"
+			],
+			"file_history":
+			[
+				"/tmp/mozilla_jimmy0/data-7.json",
+				"/tmp/mozilla_jimmy0/data-22.json",
+				"/tmp/mozilla_jimmy0/data-21.json",
+				"/tmp/mozilla_jimmy0/data-23.json",
+				"/tmp/mozilla_jimmy0/data-24.json",
+				"/tmp/mozilla_jimmy0/data-20.json",
+				"/tmp/mozilla_jimmy0/data-19.json",
+				"/tmp/mozilla_jimmy0/data-18.json",
+				"/tmp/mozilla_jimmy0/data-17.json",
+				"/tmp/mozilla_jimmy0/data-16.json",
+				"/tmp/mozilla_jimmy0/data-8.json",
+				"/tmp/mozilla_jimmy0/data-9.json",
+				"/tmp/mozilla_jimmy0/data-10.json",
+				"/tmp/mozilla_jimmy0/data-11.json",
+				"/tmp/mozilla_jimmy0/data-12.json",
+				"/tmp/mozilla_jimmy0/data-13.json",
+				"/tmp/mozilla_jimmy0/data-14.json",
+				"/tmp/mozilla_jimmy0/data-15.json",
+				"/tmp/mozilla_jimmy0/data-6.json",
+				"/tmp/mozilla_jimmy0/data.json",
+				"/tmp/mozilla_jimmy0/data-5.json",
+				"/tmp/mozilla_jimmy0/data-2.txt",
+				"/tmp/mozilla_jimmy0/data-4.json",
+				"/tmp/mozilla_jimmy0/data-1.txt",
+				"/tmp/mozilla_jimmy0/data-3.json",
+				"/tmp/mozilla_jimmy0/data-1.json",
+				"/tmp/vim-markdown-preview.html",
+				"/tmp/mozilla_jimmy0/data.txt",
+				"/tmp/mozilla_jimmy0/data-2.json",
+				"/var/tmp/etilqs_3b7136570c0c926c.csv",
+				"/run/media/jimmy/2418-E1CA/Energy+.idd",
+				"/home/jimmy/Downloads/train_binary.csv",
+				"/home/jimmy/newDisk/docs/2 Python程序设计-爬虫的实现/workspace/KNN_Test/DB_operation.py",
+				"/home/jimmy/newDisk/docs/5 TensorFlow/URLs.txt",
+				"/home/jimmy/newDisk/docs/UBC02W/engl112/draft/draft.tex",
+				"/home/jimmy/.fonts/tewimedium.sfd",
+				"/home/jimmy/Desktop/Cloudpath-Support.txt",
+				"/home/jimmy/.config/Typora/conf/conf.default.json",
+				"/home/jimmy/.config/Typora/conf/conf.user.json",
+				"/home/jimmy/.config/Typora/themes/RTL-Lavender.css"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/jimmy/pj/PROJECTS"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/jimmy/.cache/.fr-fQ5lhl/Table_Fixed_Header/css/main.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9242,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,675,70,1576,1038,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 50.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

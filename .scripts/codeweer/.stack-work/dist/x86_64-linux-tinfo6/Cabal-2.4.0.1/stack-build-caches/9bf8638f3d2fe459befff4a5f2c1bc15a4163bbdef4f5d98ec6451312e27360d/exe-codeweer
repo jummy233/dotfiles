@@ -1,0 +1,12 @@
+/home/jimmy/.scripts/codeweer/README.md:
+  hash: 3b3de30b60c5578060bd9d9f21ccb4531725617f4f2712cca56f01acc826cdb7
+  size: 11
+  modtime: 1574326766
+/home/jimmy/.scripts/codeweer/src/Main.hs:
+  hash: 109c45ae3c0d66457fe5b0ad63de9c0021f10b00bdf710dc659d945d3e2e4d28
+  size: 68
+  modtime: 1574326766
+/home/jimmy/.scripts/codeweer/codeweer.cabal:
+  hash: 400a581d584ff959c4bcc4966adf1d887aebbbc0002c6c93935118e652842c98
+  size: 630
+  modtime: 1574326824

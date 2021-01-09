@@ -1,0 +1,31 @@
+.config/coc/extensions/
+
+.config/libreoffice/
+.config/gnome-boxes*/
+.config/gnome-boxes*/
+.config/calibre/
+.config/Code - OSS/
+.config/google-chrome/
+.config/discord/
+.config/enchant/
+.config/Electron/
+.config/Postman/
+.config/UnityHub/
+.config/unity3d/
+.config/VirtualBox/
+.config/Unknown Organization/
+.config/yay/
+.config/Slack/
+.config/XMind/
+.config/Google/
+.config/Kitware/
+.config/godot/
+.config/BraveSoftware/
+.config/gtk-*/
+.config/qutebrowser/
+.config/Typora/
+.config/Google/
+
+.ccls_cache/
+.mypy_cache/
+

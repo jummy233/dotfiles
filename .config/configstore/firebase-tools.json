@@ -1,0 +1,36 @@
+{
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1574981022036,
+	"analytics-uuid": "bf7022b4-c4d0-4687-ae5c-7d776200ef22",
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "104634779474038716512",
+		"email": "jimmy123good@gmail.com",
+		"email_verified": true,
+		"at_hash": "JDpGOQDsDB1fBToEFhabAA",
+		"iat": 1574982044,
+		"exp": 1574985644
+	},
+	"tokens": {
+		"expires_at": 1574985589482,
+		"refresh_token": "1//06HRAcG0mJTq-CgYIARAAGAYSNwF-L9IrF55l6e1J0Djwi7K5SoccaPYPe-mvyaotPazuKbU8J5VyXAhhKfP9SuRRkKENpBR2Q-k",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.ImWzB-oIhNGEBQqCmzxQGZVdHq6fxjsmGOiZAAuVF-OGaUB5Q7GmvBE3iVYTQ67KGXfSwZ3i_0yRwoIOHm8pSAeeQj1VVXDwWfe6fzCqj5bTZ5flCy7BtBFSKoSjAaMbktkrCgy1OA",
+		"expires_in": 3600,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImRlZThkM2RhZmJmMzEyNjJhYjkzNDdkNjIwMzgzMjE3YWZkOTZjYTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NjM0Nzc5NDc0MDM4NzE2NTEyIiwiZW1haWwiOiJqaW1teTEyM2dvb2RAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJyZzgwSUExanFaLXlSVUh3QWJNVldRIiwiaWF0IjoxNTc0OTgyMDc0LCJleHAiOjE1NzQ5ODU2NzR9.ULb1dJvQXP4vMnb4jA7fCarEBxfY-67EsoMDu_CdHdHcRF7i4taV_Lnwe9DB7rc4n3qZPZGUAUAvJ_2N99acUz0QxZbAin1GN9soIEryP7z8r_A3tP-f5t9dyuB2I_etQP3TflLumqp1sR66w63Vue99C_F9fAJT3Qzi7EvtAmbdqUdMqv1EXe6GfbxTx4hXKlhdeW2mnx5HZzh9qhZRM41YVbUw4ndWP7ZpaIbsosl7b5HLKA_8B_hpUd4r_PVCrMX4gQ4fJ2hizBLko5wxsbmIwyGK8C7--9EcitHXWt7tnJbqHxjbw8gaBWf3VgC5zATXuW7qyKl13ui1OT4u2w"
+	},
+	"lastError": 1574981996513
+}

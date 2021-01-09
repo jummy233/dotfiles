@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+# set global variables
+$PROG_NAME=$1
+$WIN_1TTY=''
+$WIN_2TTY=''
+
+# create temp config for gdb_dashboard 
+gdb_dashboard(){
+
+    gdb $PROG_NAME
+}
+# open new tmux and gdb dashboard.
+
+# separate tmux into three panel
+tmux split-window -h "shell tty | awk ''"
+tmux split-window -v "shell "
+
+# get tyhe tty numbers of each pane
+
+# attach memory and expression in to bottom left pane
+
+# attach assembly and history into right pane
+
+# dashboard memory watch &addr -> mswatch &addr
+
+# dashboard memory watch &addr -> msunwatch &addr
+
+# dashboard expressoin watch exp -> exunwatch exp
+
+# dashboard expressoin watch exp -> exunwatch exp
+

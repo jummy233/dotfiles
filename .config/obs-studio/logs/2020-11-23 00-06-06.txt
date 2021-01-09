@@ -1,0 +1,77 @@
+12:06:06 AM.936: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+12:06:06 AM.936: CPU Speed: 2981.423MHz
+12:06:06 AM.937: Physical Cores: 4, Logical Cores: 8
+12:06:06 AM.937: Physical Memory: 7730MB Total, 517MB Free
+12:06:06 AM.937: Kernel Version: Linux 5.4.75-1-lts
+12:06:06 AM.937: Distribution: "Arch Linux" Unknown
+12:06:06 AM.938: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+12:06:06 AM.939: Portable mode: false
+12:06:07 AM.023: OBS 26.0.2-2 (linux)
+12:06:07 AM.023: ---------------------------------
+12:06:07 AM.024: ---------------------------------
+12:06:07 AM.024: audio settings reset:
+12:06:07 AM.024: 	samples per sec: 48000
+12:06:07 AM.024: 	speakers:        2
+12:06:07 AM.026: ---------------------------------
+12:06:07 AM.026: Initializing OpenGL...
+12:06:07 AM.114: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+12:06:07 AM.114: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.2.1, shading language 4.60
+12:06:07 AM.128: ---------------------------------
+12:06:07 AM.128: video settings reset:
+12:06:07 AM.128: 	base resolution:   1920x1080
+12:06:07 AM.128: 	output resolution: 1280x720
+12:06:07 AM.128: 	downscale filter:  Bicubic
+12:06:07 AM.128: 	fps:               60/1
+12:06:07 AM.128: 	format:            NV12
+12:06:07 AM.128: 	YUV mode:          709/Partial
+12:06:07 AM.128: NV12 texture support not available
+12:06:07 AM.130: Audio monitoring device:
+12:06:07 AM.130: 	name: Default
+12:06:07 AM.130: 	id: default
+12:06:07 AM.130: ---------------------------------
+12:06:07 AM.132: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+12:06:07 AM.213: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:06:07 AM.213: No blackmagic support
+12:06:07 AM.228: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+12:06:07 AM.228: 
+12:06:07 AM.228: FFMPEG VAAPI supported
+12:06:07 AM.245: VLC found, VLC video source enabled
+12:06:07 AM.245: ---------------------------------
+12:06:07 AM.245:   Loaded Modules:
+12:06:07 AM.245:     vlc-video.so
+12:06:07 AM.245:     text-freetype2.so
+12:06:07 AM.245:     rtmp-services.so
+12:06:07 AM.245:     obs-x264.so
+12:06:07 AM.245:     obs-transitions.so
+12:06:07 AM.245:     obs-outputs.so
+12:06:07 AM.245:     obs-libfdk.so
+12:06:07 AM.245:     obs-filters.so
+12:06:07 AM.245:     obs-ffmpeg.so
+12:06:07 AM.245:     linux-v4l2.so
+12:06:07 AM.245:     linux-pulseaudio.so
+12:06:07 AM.245:     linux-jack.so
+12:06:07 AM.245:     linux-decklink.so
+12:06:07 AM.245:     linux-capture.so
+12:06:07 AM.245:     linux-alsa.so
+12:06:07 AM.245:     image-source.so
+12:06:07 AM.245:     frontend-tools.so
+12:06:07 AM.245:     decklink-ouput-ui.so
+12:06:07 AM.245: ---------------------------------
+12:06:07 AM.246: ==== Startup complete ===============================================
+12:06:07 AM.250: All scene data cleared
+12:06:07 AM.250: ------------------------------------------------
+12:06:07 AM.259: pulse-input: Server name: 'pulseaudio 13.99.3'
+12:06:07 AM.259: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:06:07 AM.259: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+12:06:07 AM.259: [Loaded global audio device]: 'Desktop Audio'
+12:06:07 AM.260: pulse-input: Server name: 'pulseaudio 13.99.3'
+12:06:07 AM.261: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+12:06:07 AM.261: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+12:06:07 AM.261: [Loaded global audio device]: 'Mic/Aux'
+12:06:07 AM.262: xshm-input: Geometry 1920x1080 @ 1920,0
+12:06:07 AM.262: Switched to scene 'Scene'
+12:06:07 AM.283: ------------------------------------------------
+12:06:07 AM.283: Loaded scenes:
+12:06:07 AM.283: - scene 'Scene':
+12:06:07 AM.286:     - source: 'Screen Capture (XSHM)' (xshm_input)
+12:06:07 AM.286: ------------------------------------------------

@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=jimmy123good@hotmail.com
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=Outlook
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=jimmy123good@hotmail.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=b44c02c6fb299020d33f00bd80aef8f7e8da504b
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Junk
+RealTrashPath=Deleted
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

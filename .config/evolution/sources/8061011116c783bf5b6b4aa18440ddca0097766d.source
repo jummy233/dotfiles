@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=ailrk_hk_journalist@hotmail.com
+Enabled=true
+Parent=38466b2c650128468764edeb8816999ae60d8392
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=Outlook
+Port=25
+ProxyUid=system-proxy
+RememberPassword=true
+User=ailrk_hk_journalist@hotmail.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port
