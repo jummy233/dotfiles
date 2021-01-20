@@ -91,10 +91,10 @@ if __name__ == "__main__":
     assert len(sys.argv) == 2
 
     h: str = sys.argv[1]
-    home_path = Path(h).resolve()
+    home_path = Path(h).absolute()
     os.chdir(home_path)
 
-    home = Folder(home_path.name) / [
+    home = Folder(home_path) / [
         Folder("pj"),
         Folder("newDisk") / [
             Folder("book") / [
@@ -111,4 +111,4 @@ if __name__ == "__main__":
     home.traverse(callback)
     for n in paths:
         # TODO do wathever with the path you get
-        print(n.absolute())
+        print(n)
