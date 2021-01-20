@@ -44,6 +44,12 @@ class DirNode:
             n.traverse(cb)
         DirNode.indent -= 4
 
+    def __truediv__(self, val):
+        self.children = val
+        for n in self.children:
+            n.parent = self
+        return self
+
     def __str__(self) -> str:
         res = DirNode.indent * " "
         res += f"<DirNode name={self.name}, type={self.type}>"
@@ -73,14 +79,12 @@ def callback(self: DirNode):
     paths.append(path)
 
 
-math = DirNode(type="folder", name="math")
-book = DirNode(type="folder", name="book", children=[math])
+def Folder(name):
+    return DirNode(type="folder", name=name)
 
-docs = DirNode(type="folder", name="docs")
-Repo = DirNode(type="folder", name="Repo")
 
-screenshot = DirNode(type="folder", name="screenshot")
-img = DirNode(type="folder", name="img", children=[screenshot])
+def File(name):
+    return DirNode(type="file", name=name)
 
 
 if __name__ == "__main__":
@@ -90,14 +94,21 @@ if __name__ == "__main__":
     home_path = Path(h).resolve()
     os.chdir(home_path)
 
-    home = DirNode(type="folder", name=home_path.name, children=[
-        DirNode(type="folder", name="pj"),
-        DirNode(type="folder", name="newDisk", children=[
-            book, img, Repo
-        ]),
-        DirNode(type="folder", name="yeetDisk", children=[docs])
-    ])
+    home = Folder(home_path.name) / [
+        Folder("pj"),
+        Folder("newDisk") / [
+            Folder("book") / [
+                Folder("math")
+            ],
+            Folder("docs"),
+            Folder("Repo"),
+        ],
+        Folder("yeetDisk") / [
+            Folder("docs")
+        ]
+    ]
 
     home.traverse(callback)
     for n in paths:
+        # TODO do wathever with the path you get
         print(n.absolute())
