@@ -1,0 +1,63 @@
+#!/usr/bin/python
+"""
+A script to recover my directory structure.
+"""
+
+from pathlib import Path
+import os
+import sys
+from typing import List, Optional, Callable
+
+
+class DirNode:
+    node_type = ["folder", "file"]
+
+    def __init__(self, type: str, name: str,
+                 children: Optional[List['DirNode']] = None):
+        self.visited = False
+        self.name = name
+        if type in DirNode.node_type:
+            self.type = type
+        else:
+            raise AttributeError("Wrong key for node")
+
+        self.children: List[DirNode]
+        if self.type == "folder":
+            if children is not None:
+                self.children = children
+            else:
+                self.children = []
+
+    @classmethod
+    def traverse(cls, root: 'DirNode', cb: Callable):
+        if root.visited or len(root.children) == 0:
+            return
+        cb(root)
+        if root.type == "file":
+            return
+        for n in root.children:
+            cls.traverse(n, cb)
+
+
+math = DirNode(type="folder", name="book")
+book = DirNode(type="folder", name="book", children=[math])
+
+docs = DirNode(type="folder", name="docs")
+Repo = DirNode(type="folder", name="Repo")
+
+screenshot = DirNode(type="folder", name="screenshot")
+img = DirNode(type="folder", name="img", children=[screenshot])
+
+
+newDisk = DirNode(type="folder", name="newDisk", children=[
+    book, img, Repo
+])
+yeetDisk = DirNode(type="folder", name="yeetDisk", children=[docs])
+
+
+if __name__ == "__main__":
+    assert len(sys.argv) == 0
+
+    h: str = sys.argv[1]
+    home_path = Path(h).resolve()
+    os.chdir(home_path)

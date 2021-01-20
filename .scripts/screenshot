@@ -4,7 +4,7 @@ IMG_PATH=$HOME/newDisk/img/screenshot;
 
 case $1 in
     full)
-       cd  $IMG_PATH;
+       cd  $IMG_PATH
        scrot
        cd -
        dunstify -t 4000 -r $ID "Full screenshot in $IMG_PATH"
@@ -15,6 +15,13 @@ case $1 in
        cd -
        dunstify -t 4000 -r $ID "Current window screenshot in $IMG_PATH"
        ;;
-   *)
+   sel)
+       cd $IMG_PATH
+       dunstify -t 4000 -r $ID "Please select a region"
+       scrot -s &
+       cd -
+       dunstify -t 4000 -r $ID "Current selection is in $IMG_PATH"
+       ;;
+    *)
        dunstify -t 4000 -r $ID "Unknown usage for scrot, screenshot aborted"
 esac
