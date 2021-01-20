@@ -56,17 +56,17 @@ paths: List[Path] = []
 
 
 def callback(self: DirNode):
-    ps = [self.name]
+    paths = [self.name]
     currnet = self
     parent = currnet.parent
     while parent is not None:
-        ps.append(parent.name)
+        paths.append(parent.name)
         currnet = parent
         parent = parent.parent
 
-    top = ps.pop()
+    top = paths.pop()
     path: Path = Path(top)
-    for p in reversed(ps):
+    for p in reversed(paths):
         path = path / Path(p)
 
     global paths
@@ -83,21 +83,16 @@ screenshot = DirNode(type="folder", name="screenshot")
 img = DirNode(type="folder", name="img", children=[screenshot])
 
 
+pj = DirNode(type="folder", name="apj")
+newDisk = DirNode(type="folder", name="newDisk", children=[
+    book, img, Repo
+])
+yeetDisk = DirNode(type="folder", name="yeetDisk", children=[docs])
+
+
 if __name__ == "__main__":
-    assert len(sys.argv) == 2
+    assert len(sys.argv) == 0
 
     h: str = sys.argv[1]
     home_path = Path(h).resolve()
     os.chdir(home_path)
-
-    home = DirNode(type="folder", name=home_path.name, children=[
-        DirNode(type="folder", name="pj"),
-        DirNode(type="folder", name="newDisk", children=[
-            book, img, Repo
-        ]),
-        DirNode(type="folder", name="yeetDisk", children=[docs])
-    ])
-
-    home.traverse(callback)
-    for n in paths:
-        print(n.absolute())
